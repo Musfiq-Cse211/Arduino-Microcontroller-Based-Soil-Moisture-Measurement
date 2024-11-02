@@ -1,0 +1,20 @@
+Start
+• Include the necessary libraries (Wire.h) and (LiquidCrystal_I2C.h).
+• Initialize the LCD display with the provided I2C address (0x27), and set the num-
+ber of columns (16) and rows (2) of the display.
+• Initialize variables: Declare integer variables: soil and moisture.
+• Setup Function: Begin the serial communication at a baud rate of 9600.
+• Start the LCD display.
+• Loop Function: Read the analog value from the soil moisture sensor connected to
+analog pin A0 and store it in the variable "soil".
+• Map the soil moisture value (ranging from 0 to 1023) to a moisture percentage
+value (ranging from 0 to 100) using the map function, and store it in the variable
+"moisture".
+• Set the cursor position on the LCD display to the first column of the first row.
+• Print the text "Moisture =" on the LCD display.
+• Print the moisture percentage value obtained earlier on the LCD display.
+• Send the moisture value to the serial monitor.
+• Add a delay of 500 milliseconds to provide a pause between readings.
+• Clear the LCD display.
+• Repeat the loop function.
+• End

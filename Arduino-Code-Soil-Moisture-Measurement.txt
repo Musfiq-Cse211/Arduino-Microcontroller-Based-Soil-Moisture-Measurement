@@ -1,0 +1,23 @@
+#include<Wire.h>
+#include<LiquidCrystal_I2C.h>
+LiquidCrystal_I2C lcd(0x27,16,2);
+int soil;
+int moisture;
+
+void setup()
+{
+  Serial.begin(9600);
+  lcd.begin();
+}
+void loop()
+{
+  soil = analogRead(A0);
+  moisture = map(soil,0,1023,100,0);
+  lcd.setCursor(0,0);
+  lcd.print("Moisture = ");
+  lcd.print(moisture);
+  lcd.print("%");
+  Serial.println(moisture);
+  delay(500);
+  lcd.clear();
+}
