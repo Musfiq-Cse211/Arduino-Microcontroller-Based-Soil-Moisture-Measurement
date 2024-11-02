@@ -20,7 +20,11 @@ The measurement and monitoring of soil moisture are critical for various applica
 – Water for Checking Moisture
 
 
+![Project Implementation 2](https://github.com/user-attachments/assets/cbf004d3-3750-4c19-8b39-35d19cafbef5)
+
 ![Project Implementation 3](https://github.com/user-attachments/assets/98b3af65-47c0-45fe-b3d4-e8e8132c1509)
+
+![Project Implementation 3](https://github.com/user-attachments/assets/8ec2464c-1805-4267-b267-4bc78c94a965)
 
 ![Project Implementation 2](https://github.com/user-attachments/assets/4b022308-9470-482b-8a99-0eccc6268318)
 
